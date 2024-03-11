@@ -32,11 +32,11 @@ export const FirstForm: React.FC = () => {
     setInputValue(event.target.value);
   };
 
-  console.log(sumOfSomething());
+  // console.log(sumOfSomething());
 
   return (
     <div>
-      <p className="text-black">hello: {sumOfSomething()}</p>
+      {/* <p className="text-black">hello: {sumOfSomething()}</p> */}
       <Form
         name="basic"
         labelCol={{ span: 8 }}
