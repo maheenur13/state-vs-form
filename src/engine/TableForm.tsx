@@ -51,7 +51,7 @@ const EditableCell: React.FC<EditableCellProps> = ({
   handleSave,
   ...restProps
 }) => {
-  console.log({ type });
+  //   console.log({ type });
 
   const [editing, setEditing] = useState(false);
   const inputRef = useRef<any>(null);

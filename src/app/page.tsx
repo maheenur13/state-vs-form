@@ -40,14 +40,14 @@ export default function Home() {
         <Col span={12} className="mb-4">
           <Collapse
             items={[items[1]]}
-            defaultActiveKey={["1"]}
+            defaultActiveKey={["2"]}
             onChange={onChange}
           />
         </Col>
-        <Col span={12} className="mb-4">
+        <Col span={24} className="mb-4">
           <Collapse
             items={[items[2]]}
-            defaultActiveKey={["1"]}
+            defaultActiveKey={["3"]}
             onChange={onChange}
           />
         </Col>
